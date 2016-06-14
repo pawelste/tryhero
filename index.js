@@ -13,7 +13,8 @@ app.all("/",function(req,res){
     req.send("Response")
 });
 
+var port = process.env.PORT || 8080;
 
-app.listen(3000, function () {
-    console.log("HTTP Srv started at port " + 3000);
+app.listen(port, function () {
+    console.log("HTTP Srv started at port " + port);
 });

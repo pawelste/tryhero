@@ -10,7 +10,7 @@ app.use(function(req,res,next){
 });
 
 app.all("/",function(req,res){
-    req.send("Response")
+    res.send("Response")
 });
 
 var port = process.env.PORT || 8080;

@@ -1,15 +1,15 @@
 {
   "name": "application-name",
   "version": "0.0.1",
-  "engines" : {
+  "engines": {
     "node": "4.4.5",
     "npm": "2.15.5"
   },
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "lodash": "^4.13.1"
   },
   "scripts": {
     "start": "node index.js"
   }
 }
-
